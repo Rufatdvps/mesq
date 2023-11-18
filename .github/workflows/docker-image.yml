@@ -6,11 +6,5 @@ jobs:
       steps:
          
           -name: docker
-           run: git clone https://github.com/Rufatdvps/mesq/Dockerfile
-
-          -name: yoxla
-           run: pwd
-
-           -name: ll
-            run: ls -l
+           run: docker build -t new:latest
 
