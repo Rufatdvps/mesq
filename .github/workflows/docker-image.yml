@@ -2,15 +2,12 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
 
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: amazonlinux
 
     steps:
     - name: Build the Docker image
