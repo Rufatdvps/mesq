@@ -11,7 +11,7 @@ jobs:
    
     steps:
     - name: sss
-      run: git clone git clone https://github.com/Rufatdvps/mesq.git
+      run: git clone git clone https://github.com/Rufatdvps/mesq
     - name: sss
       run: pwd
       
