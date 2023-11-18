@@ -8,7 +8,12 @@ jobs:
   run:
 
     runs-on: ubuntu-latest
-
+   
     steps:
+    - name: sss
+      run: git clone git clone https://github.com/Rufatdvps/mesq.git
+    - name: sss
+      run: pwd
+      
     - name: Build the Docker image
       run: docker build . -t Dockerfile 
