@@ -11,4 +11,4 @@ jobs:
 
     steps:
     - name: Build the Docker image
-      run: docker build . -t file Dockerfile 
+      run: docker build . -t Dockerfile 
