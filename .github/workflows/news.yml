@@ -1,0 +1,21 @@
+name: salam millet
+on: push
+jobs:
+   my-job:
+      runs-on: ubuntu:latest
+      steps:
+          - name: my-step
+        run: echo "Hello World!"
+        
+      - name: Checkout repository
+        run: mkdir ehmed
+
+      - name: yess
+        run: nano index.txt
+
+      - name: tx
+        run: mv index.txt ehmed
+
+      - name: Set up JDK 11
+        run: echo "salam millet" > ehmed/hello.txt
+
